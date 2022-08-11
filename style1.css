@@ -1,0 +1,58 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #ddd;
+	color:#111;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+
+header {
+	background-color: #ff8000;
+	color: #fff;
+	max-width: 800px;
+	width: 85%;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+
+h1 {
+	display: block;
+	padding: 20px;
+}
+
+main {
+	max-width: 800px;
+	width: 85%;
+	margin: 10px auto;
+}
+
+section {
+	background-color: #fff;
+	padding: 15px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+button, input {
+	border:none;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+input {
+	background: #ddd;
+}
+
+#textBtnAdd {
+	background-color: #0a2;
+	color: #fff;
+}
+#textBtnDel {
+	background-color: #c44;
+	color: #fff;
+}
