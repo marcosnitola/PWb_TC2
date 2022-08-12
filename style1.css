@@ -59,11 +59,11 @@ input {
 }
 
 ul {
-	margin-top: 10px;
 	display: block;
 }
 
 ul li {
+	margin-top: 10px;
 	display: block;
 	padding: 10px;
 }
