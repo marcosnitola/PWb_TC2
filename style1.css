@@ -57,3 +57,17 @@ input {
 	background-color: #c44;
 	color: #fff;
 }
+
+ul {
+	margin-top: 10px;
+	display: block;
+}
+
+ul li {
+	display: block;
+	padding: 10px;
+}
+
+ul.onDeletion li:hover{
+	text-decoration: line-through;
+}
