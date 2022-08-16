@@ -9,11 +9,11 @@ function toggleDel() {
 	if (isDeletingActive) {
 		isDeletingActive = false;
 		textBtnDel.innerHTML = "Borrar";
-		textList.classList.add("onDeletion");
+		textList.classList.remove("onDeletion");
 	} else if (!isDeletingActive) {
 		isDeletingActive = true;
 		textBtnDel.innerHTML = "PULSA PARA BORRAR";
-		textList.classList.remove("onDeletion");
+		textList.classList.add("onDeletion");
 	}
 }
 
